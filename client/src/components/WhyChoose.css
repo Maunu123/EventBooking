@@ -1,0 +1,166 @@
+.why-choose {
+    padding: 90px 8%;
+    background: #ffffff;
+}
+
+
+/* HEADER */
+
+.why-header {
+    max-width: 700px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.why-subtitle {
+    margin: 0 0 10px;
+
+    color: blueviolet;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.why-header h2 {
+    margin: 0;
+
+    color: #222;
+
+    font-size: 38px;
+
+    line-height: 1.2;
+}
+
+.why-header h2 span {
+    color: blueviolet;
+}
+
+.why-description {
+    margin-top: 15px;
+
+    color: #777;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+}
+
+
+/* BENEFITS */
+
+.benefits-grid {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+}
+
+
+/* CARD */
+
+.benefit-card {
+    padding: 30px 25px;
+
+    background: #ffffff;
+
+    border: 1px solid #eeeeee;
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    transition: 0.3s;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.benefit-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #e2d2f5;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.09);
+}
+
+
+/* ICON */
+
+.benefit-icon {
+    width: 65px;
+    height: 65px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: #f3eaff;
+
+    border-radius: 16px;
+
+    color: #8129cf;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+
+/* TEXT */
+
+.benefit-card h3 {
+    margin: 0 0 12px;
+
+    color: #222;
+
+    font-size: 18px;
+}
+
+.benefit-card p {
+    margin: 0;
+
+    color: #777;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* TABLET */
+
+@media (max-width: 1000px) {
+
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .why-choose {
+        padding: 65px 20px;
+    }
+
+    .why-header h2 {
+        font-size: 30px;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
